@@ -26,4 +26,11 @@ const user = {
 }
 
 let test = user.getFullName();
+
 console.log(test)
+
+// calling function name without () , it return the function defination 
+
+let test1 = user.getFullName;
+
+console.log(test1)
