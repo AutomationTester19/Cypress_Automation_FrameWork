@@ -1,4 +1,5 @@
 /// <reference types="Cypress" />
+
 describe('ECommerce Automation Test Suite' , () => {
 
     it('Validate the title of the page', () => {
