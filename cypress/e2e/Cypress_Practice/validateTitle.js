@@ -6,6 +6,6 @@ describe('ECommerce Automation Test Suite' , () => {
       
         cy.visit('https://admin-demo.nopcommerce.com/login')
         cy.title().should('eq','Your store. Login')
-       
+        
     })
 })
