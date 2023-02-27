@@ -15,8 +15,13 @@ describe('ECommerce Automation Test Suite' , () => {
         cy.title().should('eq','Dashboard / nopCommerce administration');
     })
 
-    it('Validate Catalog is Displayed',() => {
-
-      
+    it('Validate Side Bar Menu Details',() => {
+      cy
+       .get('.brand-link ')
+       .last()
+       .invoke('show')
+      cy
+        .get('.sidebar-form+nav>ul>li>a>p')
+        .should('have.length',10)
     })
 })
