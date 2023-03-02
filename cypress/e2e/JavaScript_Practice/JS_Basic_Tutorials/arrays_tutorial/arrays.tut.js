@@ -124,7 +124,8 @@ console.log(s3)
  *      parameter1 - in which index new element should add
  *      parameter2 - which element should be removed eg : if it is 0 then no element will be removed else specificied index element will removed
  *      parameter3 - new element value
- *    If splice method contains we can remove the elements by specifing from start index and end index
+ *    If splice method contains we can remove the elements by specifing from 
+ *    start index and end index
  * 2. slice method --
  *     will display the  elements from specific index
 */
